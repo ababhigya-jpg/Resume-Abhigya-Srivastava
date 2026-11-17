@@ -1,0 +1,158 @@
+/* Colours: dark blue #1f3a5f, teal #2a9d8f, light grey #f2f2f2 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #222222;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #1f3a5f;
+}
+
+a {
+  color: #2a9d8f;
+}
+
+a:hover {
+  color: #1f3a5f;
+}
+
+/* navigation bar */
+#navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 14px;
+  background-color: #1f3a5f;
+  position: sticky;
+  top: 0;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: yellow;
+}
+
+/* top section */
+#top {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.tagline {
+  margin: 4px 0;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #2a9d8f;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #1f3a5f;
+  color: white;
+}
+
+/* sections */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+}
+
+.place {
+  color: gray;
+}
+
+.facts {
+  background-color: white;
+  border: 1px solid #2a9d8f;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1f3a5f;
+  color: white;
+}
+
+/* contact form */
+#contact {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #1f3a5f;
+  color: white;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact a {
+  color: yellow;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
